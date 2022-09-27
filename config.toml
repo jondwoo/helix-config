@@ -1,0 +1,21 @@
+theme = "rosepine_moon_transparent"
+
+[keys.normal]
+"backspace" = { c = ":open ~/.config/helix/config.toml" }
+
+[keys.insert]
+j = { k = "normal_mode" }
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.statusline]
+left = ["mode", "file-name", "diagnostics"]
+right = ["selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+
+[editor]
+line-number = "relative"
+mouse = false
+scrolloff = 8
+cursorline = true
