@@ -14,6 +14,14 @@ left = ["mode", "file-name", "diagnostics"]
 right = ["selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "│"
 
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
 [editor]
 line-number = "relative"
 mouse = false
